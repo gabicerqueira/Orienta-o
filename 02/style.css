@@ -1,4 +1,4 @@
-*{
+* {
     border: 0;
     margin: 0;
     padding: 0;
@@ -15,67 +15,68 @@
     src: url(fonts/ShareTechMono-Regular.ttf);
 }
 
-body{
-background: radial-gradient(circle, rgba(246,238,225,1) 30%, rgba(224,234,233,1) 68%, rgba(208,205,248,1) 100%);
+body {
+    background: linear-gradient(to top right, #FFE6F1, #E7DCE9, #B5F0F3);
+    background-repeat: no-repeat;
 }
 
-main{
+main {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 100px 0;
+    margin: 97px 0;
 }
 
-.calculadora{
+.calculadora {
     background-color: #CAB4EF;
     text-align: center;
     padding: 30px;
     width: 320px;
-    box-shadow: inset -35px -30px 0px 20px  #BE87EF;
+    box-shadow: inset -35px -30px 0px 20px #BE87EF;
     border: 12px solid #400A28;
     border-radius: 20px;
 }
 
-button{
+button {
     font: 400 30px 'Share', sans-serif;
     padding: 10px 15px;
     margin: 5px 3px;
     border-radius: 8px;
 }
 
-input{
+input {
     background-color: #BDF2DF;
     width: 218px;
     height: 65px;
     border: 8px solid #400A28;
     border-radius: 16px;
-    box-shadow: inset 4px 4px 4px 0px  #00000085;
+    box-shadow: inset 4px 4px 4px 0px #00000085;
     padding: 10px;
     padding-top: 15px;
     font: 400 22px 'Share', sans-serif;
     text-align: right;
 }
 
-.teclado{
+.teclado {
     margin-top: 20px;
 }
 
-header{
+header {
     /* box-shadow: 4px 4px 4px 0px  #00000085; */
-    padding: 12px 0;
+    padding: 20px 0;
 }
 
-.container-header{
+.container-header {
     display: flex;
     align-items: center;
     flex-direction: row;
 }
 
-header img{
-    width: 60px;
+header img {
+    width: 70px;
     margin: 0 30px 0 70px;
 }
 
-h1{
-    font: 500 40px 'Share', sans-serif;
+h1 {
+    font: 500 42px 'Share', sans-serif;
 }
